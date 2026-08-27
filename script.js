@@ -4,6 +4,8 @@ document.querySelector(".theme-btn").addEventListener("click", () => {
     localStorage.setItem("theme", document.documentElement.dataset.theme);
 });
 
-let testPlayer = new Player("Player 1");
-let testPlayer2 = new Player("Player 2");
+let players = [];
 
+document.querySelector(".add-player-btn").addEventListener("click", () => {
+    players.push(new Player("Player " + (players.length+1)));
+});
