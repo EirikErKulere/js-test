@@ -51,7 +51,7 @@ body {
     justify-content: center;
 }
 
-.poeng-container {
+.player-container {
     margin-top: 20px;
     color: var(--text-color);
     text-align: center;
@@ -60,7 +60,7 @@ body {
     outline: 2px solid green;
 }
 
-.poeng-container-container {
+.player-container-container {
     display: flex;
     justify-content: space-evenly;
 }
