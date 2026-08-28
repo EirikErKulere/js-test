@@ -14,7 +14,7 @@ const legendaryQuotes = [
     "Osloskolen-GPT elsker deg! ❤️",
     "why do they call it oven when you of in the cold food of out hot eat the food"
 ];
-let currentQuoteIndex = 1;
+let currentQuoteIndex = 0;
 document.querySelector(".quote-btn").addEventListener("click", () => {
     let quoteIndex = Math.floor(Math.random() * (legendaryQuotes.length - 1));
     if (quoteIndex >= currentQuoteIndex) quoteIndex++;
